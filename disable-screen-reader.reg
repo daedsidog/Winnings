@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Disables the "Blind Access" accessibility feature for the current user in order to suppress an
+; infurating PowerShell warning.
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Blind Access]
+"On"="0"
